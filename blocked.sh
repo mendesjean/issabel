@@ -1,5 +1,4 @@
 #!/bin/bash
-#
 iptables -I INPUT -s 1.0.146.170 -j DROP
 iptables -I INPUT -s 1.165.119.19 -j DROP
 iptables -I INPUT -s 1.171.156.115 -j DROP
