@@ -1,4 +1,9 @@
 #!/bin/bash
+iptables -I INPUT -s 45.143.220.221 -j DROP
+iptables -I INPUT -s 51.255.134.129 -j DROP
+iptables -I INPUT -s 144.217.76.62 -j DROP
+iptables -I INPUT -s 88.80.148.186 -j DROP
+iptables -I INPUT -s 37.49.229.182 -j DROP
 iptables -I INPUT -s 212.129.48.145 -j DROP
 iptables -I INPUT -s 51.195.5.232 -j DROP
 iptables -I INPUT -s 195.154.171.0/24 -j DROP
