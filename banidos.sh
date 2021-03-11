@@ -5626,3 +5626,4 @@ iptables -I INPUT -s 195.154.28.0/24 -j DROP
 iptables -I INPUT -s 23.101.162.191 -j DROP
 iptables -I INPUT -s 37.49.226.0/24 -j DROP
 iptables -I INPUT -s 74.91.22.0/24 -j DROP
+service iptables save
