@@ -1,4 +1,5 @@
 #!/bin/bash
+iptables -I INPUT -s 103.251.0.0/16 -j DROP
 iptables -I INPUT -s 45.93.0.0/16 -j DROP
 iptables -I INPUT -s 14.186.0.0/16 -j DROP
 iptables -I INPUT -s 14.187.0.0/16 -j DROP
@@ -4316,4 +4317,8 @@ iptables -I INPUT -s 195.154.28.0/24 -j DROP
 iptables -I INPUT -s 23.101.162.191 -j DROP
 iptables -I INPUT -s 37.49.226.0/24 -j DROP
 iptables -I INPUT -s 74.91.22.0/24 -j DROP
+iptables -I INPUT -s 191.237.248.130 -j DROP
+iptables -I INPUT -s 31.6.11.224 -j DROP
+iptables -I INPUT -s 103.27.230.131 -j DROP
+iptables -I INPUT -s 103.250.142.216 -j DROP
 service iptables save
