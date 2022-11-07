@@ -1645,7 +1645,7 @@ iptables -I INPUT -s 177.73.136.228 -j DROP
 iptables -I INPUT -s 177.73.208.10 -j DROP
 iptables -I INPUT -s 177.74.189.21 -j DROP
 iptables -I INPUT -s 177.75.75.162 -j DROP
-iptables -I INPUT -s 177.78.231.226 -j DROPP
+iptables -I INPUT -s 177.78.231.226 -j DROP
 iptables -I INPUT -s 177.8.244.9 -j DROP
 iptables -I INPUT -s 177.86.116.70 -j DROP
 iptables -I INPUT -s 177.94.211.153 -j DROP
