@@ -33,7 +33,6 @@ iptables -I INPUT -s 139.59.0.0/16 -j DROP
 iptables -I INPUT -s 139.99.0.0/16 -j DROP
 iptables -I INPUT -s 140.143.0.0/16 -j DROP
 iptables -I INPUT -s 142.93.0.0/16 -j DROP
-iptables -I INPUT -s 144.217.0.0/16 -j DROP
 iptables -I INPUT -s 147.135.0.0/16 -j DROP
 iptables -I INPUT -s 149.56.0.0/16 -j DROP
 iptables -I INPUT -s 150.109.0.0/16 -j DROP
